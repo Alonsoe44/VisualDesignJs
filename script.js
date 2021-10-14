@@ -34,6 +34,7 @@ for(let j = 0; j <= squareSide; j++){
             context.beginPath();
             context.arc(radiusxAnalicer(radius, i, xspace), yHolder, radius - 5, 0, Math.PI * 2);
             context.stroke();
+            //Ho ho ho no one will know
         }
     }
     yHolder = radiusxAnalicer(radius, j, yspace);
